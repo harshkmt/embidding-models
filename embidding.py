@@ -7,6 +7,11 @@ embeddings = HuggingFaceEmbeddings(
 vector = embeddings.embed_query(
     "What is machine learning?"
 )
+txt=['what is ML',
+    'superwised algo is a ML algo']
 
-print(vector)
+vector_v2= embeddings.embed_documents(txt)
+
+# print(vector)
 print("Vector dimensions:", len(vector))
+print("vector_v2 dimensions: ",len(vector_v2))
