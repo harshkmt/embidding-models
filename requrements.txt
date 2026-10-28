@@ -1,0 +1,8 @@
+langchain
+langchain-core
+langchain-community
+
+python-dotenv
+requests
+langchain_huggingface
+sentence-transformers
